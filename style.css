@@ -278,7 +278,6 @@ section{
 
 .symbol{
     height: 2.7rem;
-    cursor: none;
 }
 
 .about-container{
@@ -297,6 +296,16 @@ section{
 }
 
 .details-container{
+    padding: 1.3rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.edu-container{
     padding: 1.3rem;
     flex: 1;
     background: white;
@@ -380,3 +389,51 @@ section{
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); /* Adjust the minmax values as needed */
     }
 }
+
+
+/* HOBBIES SECTION */
+#hobbies{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.container{
+    max-width: 1120px;
+    width: 100%;
+    /* background: grey; */
+    padding: 30px;
+}
+
+.slide-container{
+    margin: 0 30px;
+    overflow: hidden;
+}
+
+.card{
+    background: #fff;
+    border-radius: 8px;
+}
+
+.card .image-box{
+    height: 200px;
+}
+
+.card .image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .hobby-details{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 15px 7px 15px;
+}
+
+.hobby-desc p{
+    font-size: 13px;
+}
+
